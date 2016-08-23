@@ -1,5 +1,6 @@
 # R_data_frames
-This note is intended to provide easy to follow instructions to seasoned analysts and budding data gigs 
+This note is intended to provide easy to follow instructions to seasoned analysts and budding data gigs.
+
 In this note I will quickly talk about csv files on a basic scenario. 
 I have loaded two csv files with customer complaints on my github account. The complaints are unique and a customer might complain more than once. Customer Id is encrypted as XX000 and assume that missing values don't have the same pattern and number of strings.
  After the basic preprocessing we want to know the number of complaints by customers and the time window between the first and last complaint.
