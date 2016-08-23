@@ -96,8 +96,7 @@ We can also look at the problematic products visually as a  table and chart it:
 > View(table(dat_df$Product))
 >pie(table(dat_df$Product))
 Let’s save the pie chart to use in this publication. 
-NOTE: getwd() # to see if we are in the working directory that we want to be in
-# Otherwise remember to setwd()
+NOTE: getwd() # to see if we are in the working directory that we want to be in. Otherwise remember to setwd()
 >png(filename="pie_chart.png")
 >pie(table(dat_df$Product))
 >dev.off()
